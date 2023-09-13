@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+body{
+    background:linear-gradient(#075982,#157cb0,#32a3db, #5ab0db, #74b5d6);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+ 
+.header{
+        width: 100%;
+        height: 140px;
+        background:#F8F8FF;
+        margin: 0px auto;
+        }
+.header h1{
+            display: block; 
+            float: left;
+}
+
+ul{
+    list-style: none;
+    display: block;
+}
+
+li{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.nav{
+    padding-left: 0px;
+	display: block;
+    float: right;
+    margin-right: 20px;
+}
+
+.nav ul{
+    list-style: none;
+    display: block;
+    float: right;
+}
+
+.nav li {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: block;
+    }
+    .nav a {
+        position: relative;
+        text-decoration: none;
+        text-transform: none;
+        padding-top: 8px;
+        color:#000000;
+        font-weight: bold;
+        background-color: #000000;
+        border-radius: 6px;
+        padding: 6px 10px;
+        color: #ffffff;
+        display: block;
+        }
+    .nav a:hover{
+        background-color: rgba(13, 196, 196, 0.849);
+        }
+    ul.nav a.ativa{
+        background-color: rgba(13, 196, 196, 0.849);
+        }
+
+#banner{
+    margin-top: 15px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 0px auto;
+    display: block;
+}        
+#banner h1{
+    display: block; /*bloqueia linha*/
+    width: 600px;
+    height: 400px;
+}
+
+.section{
+    width:800px;
+    height:200px;
+    background:#338fcccd;
+    margin:15px auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.section1{
+    width: 95%;
+    height: 450px;
+    background:#338fcccd;
+    margin: 10px auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.section1 h1{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
+
+.section2{
+    width: 95%;
+    height: 400px;
+    background:#338fcccd;
+    margin: 10px auto;
+    display: block;
+    border-radius: 30px;
+}
+
+    .section2 h1{
+        font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+        display: block;
+    }
+
+.section3{
+    width: 95%;
+    height: 600px;
+    background:#338fcccd;
+    margin: 10px auto;
+    display: block;
+    border-radius: 30px;
+}
+    
+    .section3 h1{
+        font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+.section4{
+    width:800px;
+    height:600px;
+    background:#338fcccd;
+    margin:15px auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.section5{
+    width:95%;
+    height:600px;
+    background:#338fcccd;
+    margin:15px auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.section6{
+    width:95%;
+    height:700px;
+    background:#338fcccd;
+    margin:15px auto;
+    display: block;
+    border-radius: 30px;
+}
+.section7{
+    width:75%;
+    height:600px;
+    background:#338fcccd;
+    margin:15px auto;
+    display: block;
+    border-radius: 30px;
+}
+
+    .article{
+        width: 790px;
+        float:left;
+        margin:5px 8px;
+    }
+
+    .article p{
+        color: rgb(255, 255, 255);
+        padding-top:5px;
+        font-size: 28px;
+        text-align:justify;
+    }
+
+.article1{
+    display: block;
+    width: 1800;
+    margin:5px 8px;
+}
+
+    .article1 p{
+        color: rgb(255, 255, 255);
+        padding-top:5px;
+        font-size: 24px;
+        text-align:justify;
+    }
+
+    .article1  h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+    }
+
+.article2{
+    width:32%;
+    float:left;
+    margin:5px 8px;
+}
+
+    .article2 h2{
+        font-size: 24px;
+        font-weight: bold;
+        text-transform:uppercase;
+        text-align:center;
+        color: #ffffff;
+    }
+        .article2 p{
+        padding-top:5px;
+        font-size: 20px;
+        text-align:justify;
+        color: #ffffff;
+    }
+
+.article3{
+    width:70%;
+    float:left;
+    margin:5px 8px;
+}
+    
+        .article3 h2{
+            font-size: 24px;
+            font-weight: bold;
+            text-transform:uppercase;
+            text-align:center;
+            color: #ffffff;
+        }
+            .article3 p{
+            padding-top:5px;
+            font-size: 20px;
+            text-align:justify;
+            color: #ffffff;
+        }
+
+.image-box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 30px;
+    }
+
+.image-box1 img{
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    }
+
+.footer{
+    width: 100%;
+	height: 45px;
+	background:#ffffff;
+    margin: 0px auto;
+    margin-bottom: 0px; 
+    padding-top:25px;
+}
+
+.footer h5{
+    text-align: center;
+}
+
+.ancora{
+    float: right;
+    padding-top: 20px;
+}
+
+.contato{
+    padding-top: 20px;
+    width:600px;
+    height:300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    }
+
+    .contato h1{
+        font-size:25px;
+        }
+        
+    .contato textarea{
+          resize: none;
+        }
+
+@media screen and (min-width:810px) and (max-width:1024px){
+    body, div{ background: red;}
+    .footer { margin:0px auto;}
+    .header { margin:0px auto;}
+    .ancora{ margin:0px auto;}
+    .article{ margin:0px auto; position: relative;}
+    .article1{ margin:0px auto; position: relative;}
+    .article2{ margin:0px auto; position: relative;}
+    .article3{ margin:0px auto; position: relative;}
+    .contato{ margin:0px auto;}
+    .image-box{ margin:0px auto;position: relative;}
+    .image-box1{ margin:0px auto;position: relative;}
+    .nav{ margin:0px auto;}
+    .section{ margin:0px auto;position: relative;}
+    .section1{ margin:0px auto; position: relative;}
+    .section2{ margin:0px auto; position: relative;}
+    .section3{ margin:0px auto; position: relative;}
+    .section4{ margin:0px auto; position: relative;}
+    .section5{ margin:0px auto; position: relative;}
+    .section6{ margin:0px auto; position: relative;}
+    .section7  { margin:0px auto; position: relative;}    
+    }		   
