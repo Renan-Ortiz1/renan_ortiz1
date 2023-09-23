@@ -69,6 +69,34 @@ li{
         background-color: rgba(13, 196, 196, 0.849);
         }
 
+#band1{
+    padding-left: 0px;
+	display: block;
+    float: right;
+    margin-right: 20px;
+}
+    #band1 ul{
+        list-style: none;
+        display: block;
+        float: right;
+        }
+        #band1 li{
+            float: left;
+            margin-left: 50px;
+            margin-top: 50px;
+            display: block;
+            }
+            #band1 a{
+                position: relative;
+                text-decoration: none;
+                text-transform: none;
+                padding-top: 8px;
+                border-radius: 6px;
+                padding: 6px 10px;
+                display: block;
+                background: none;
+                }
+
 #banner{
     margin-top: 15px;
     width: 600px;
